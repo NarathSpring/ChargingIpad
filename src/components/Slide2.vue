@@ -34,6 +34,9 @@ export default class Slide1 extends Vue {}
   top: 50%;
   transform: translateY(-50%);
 }
+.qrcode{
+  width: 50%;
+}
 .bottom {
   margin-top: 40px;
   z-index: -1;
