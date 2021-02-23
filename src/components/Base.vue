@@ -1,5 +1,6 @@
 <template>
   <div class="base">
+    <!-- <div class="navtop"></div> -->
     <img src="../assets/1_mask.png" alt="" class="top" />
   </div>
 </template>
@@ -18,8 +19,14 @@ export default class Base extends Vue {}
   height: 100%;
   width: 100%;
 }
+.navtop{
+  width: 100%;
+  height: 30px;
+  background: grey
+}
 .top {
   width: 100%;
+  height: 100%;
   position: absolute;
   /* top: 30px; */
   left: 0;

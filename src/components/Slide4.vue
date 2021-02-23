@@ -37,6 +37,7 @@ img {
 }
 .bottom {
   position: absolute;
+  width: 50%;
   bottom: 0;
   z-index: 999;
 }

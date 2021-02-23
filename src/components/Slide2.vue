@@ -28,7 +28,7 @@ export default class Slide1 extends Vue {}
 .content {
   position: relative;
   display: grid;
-  grid-template-rows: 150px 450px 200px 150px;
+  grid-template-rows: 130px 450px 190px 130px;
   justify-items: center;
   align-items: center;
   top: 50%;
@@ -38,7 +38,7 @@ export default class Slide1 extends Vue {}
   width: 50%;
 }
 .bottom {
-  margin-top: 40px;
+  
   z-index: -1;
 }
 </style>

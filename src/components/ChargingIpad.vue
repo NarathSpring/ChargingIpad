@@ -1,11 +1,12 @@
 <template>
   <swiper ref="mySwiper" :options="swiperOptions" class="swiper-container">
-    <swiper-slide class="slide1"><Slide1 /></swiper-slide>
-    <swiper-slide class="slide2"><Slide2 /></swiper-slide>
-    <swiper-slide class="slide3"><Slide3 /></swiper-slide>
-    <swiper-slide class="slide3"><Slide4 /></swiper-slide>
-    <swiper-slide class="slide3"><Slide5 /></swiper-slide>
+    <swiper-slide class="slide1 "><Slide1 /></swiper-slide>
+    <swiper-slide class="slide2 "><Slide2 /></swiper-slide>
+    <swiper-slide class="slide3 "><Slide3 /></swiper-slide>
+    <swiper-slide class="slide3 "><Slide4 /></swiper-slide>
+    <swiper-slide class="slide3 "><Slide5 /></swiper-slide>
   </swiper>
+  
 </template>
 
 <script lang="ts">

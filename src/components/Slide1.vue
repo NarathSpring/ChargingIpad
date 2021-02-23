@@ -36,18 +36,21 @@ img {
 .content {
   position: relative;
   height: 100%;
+  width:90%;
+  margin:0 auto;
+  padding-top:10%;
   top: 0;
 }
 .title {
   width: 65%;
-  top: 7%;
+  top: 15%;
 }
 .main {
-  top: 12%;
+  padding-top: 5%;
 }
 .bottom {
   position: relative;
-  top: 270px;
+  top: 11%;
   height: 100%;
 }
 .bottom > img {
